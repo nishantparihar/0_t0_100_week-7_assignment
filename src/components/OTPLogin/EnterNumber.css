@@ -1,0 +1,75 @@
+#main{
+        width : 100%;
+        height : 80vh;
+        display: flex;
+        justify-content :  center;
+        align-items :  center;
+        
+}
+
+#outer{
+        width:  450px ;
+        height:  450px ;
+        background-color :  black ;
+        display:  flex ;
+        justify-content :   center ;
+        align-items :   center ;
+        color:   white  
+}
+
+#inner{
+        width:  430px ;
+        height:  430px ;
+        border:   2px solid white  ;
+        border-radius:  30px ;
+        display:  flex ;
+        flex-direction:  column ;
+        justify-content :   center  ;
+        align-items :   center  ;
+        
+}
+
+#upper{
+        font-size:  40px ;
+        margin-bottom:  35px 
+}
+
+#numberInput{
+    width :  300px ;
+    height:  50px ;
+    color:  white ;
+    background-color:  black ;
+    border:  1px solid white ;
+    box-sizing:  border-box ;
+    padding-left:  15px ;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+#numberInput:focus {
+    outline: 3px solid chartreuse;
+    
+}
+
+#numberInput, ::placeholder {
+    color: white;
+    font-size: 18px;
+}
+
+
+
+#sendButton{
+
+    width: 120px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 90px;
+}
+#sendButton:hover{
+    border-color: chartreuse;
+}

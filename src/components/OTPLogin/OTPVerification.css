@@ -1,0 +1,90 @@
+#mainOTP{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content : center;
+    align-items: center;
+    
+}
+
+#outerOTP{
+    width:  450px ;
+    height:  450px ;
+    background-color :  black ;
+    display:  flex ;
+    justify-content :   center ;
+    align-items :   center ;
+    color:   white  
+}
+
+#innerOTP{
+    width:  430px ;
+    height:  430px ;
+    border:   2px solid white  ;
+    border-radius:  30px ;
+    display:  flex ;
+    flex-direction:  column ;
+    justify-content :   center  ;
+    align-items :   center  ;
+    
+}
+
+#upperOTP{
+    font-size:  40px ;
+    margin-bottom:  35px 
+}
+
+#inputDiv{
+    width :  250px ;
+    height:  50px ;
+   
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.inputDigit{
+    width: 50px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* #numberInput:focus {
+outline: 3px solid chartreuse;
+
+}
+
+#numberInput, ::placeholder {
+color: white;
+font-size: 18px;
+} */
+
+
+
+#sendButtonOTP{
+
+width: 120px;
+height: 35px;
+background-color: black;
+color: white;
+border: 2px solid white;
+border-radius: 5px;
+font-size: 18px;
+cursor: pointer;
+margin-bottom: 90px;
+}
+#sendButton:hover{
+border-color: chartreuse;
+}
